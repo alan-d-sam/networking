@@ -2,6 +2,7 @@
 #include<string.h>
 int main()
 {
+  int i;
   int no_of_queries,storage,input_pkt_size;
   int output_pkt_size,bucket_size,size_left;
   storage=0;

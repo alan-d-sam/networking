@@ -16,13 +16,13 @@ int main()
     if(input_pkt_size<=size_left)
     {
       storage+=input_pkt_size;
-      printf("buffer size=%d out of bucket size=%d",storage,bucket_size);
+      printf("buffer size=%d out of bucket size=%d\n",storage,bucket_size);
     }
     else
     {
-      printf("packet loss=%d",input_pkt_size-size_left);
+      printf("packet loss=%d\n",input_pkt_size-size_left);
       storage=bucket_size;
-      printf("buffer size=%d out of bucket size=%d",storage,bucket_size);
+      printf("buffer size=%d out of bucket size=%d\n",storage,bucket_size);
     }
     storage-=output_pkt_size;
   }

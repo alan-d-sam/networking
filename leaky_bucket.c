@@ -10,7 +10,7 @@ int main()
   bucket_size=10;
   input_pkt_size=4;
   output_pkt_size=1;
-  for(i=0;i<no_of_queries,i++)
+  for(i=0;i<no_of_queries;i++)
   {
     size_left=buffer_size-storage;
     if(input_pkt_size<=size_left)

@@ -21,7 +21,7 @@ int main()
     else
     {
       printf("packet loss=%d",input_pkt_size-size_left);
-      storage=buffer_size;
+      storage=bucket_size;
       printf("buffer size=%d out of bucket size=%d",storage,bucket_size")
     }
     storage-=output_pkt_size;

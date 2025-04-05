@@ -1,0 +1,5 @@
+buffer size=4 out of bucket size=10
+buffer size=7 out of bucket size=10
+buffer size=10 out of bucket size=10
+packet loss=3
+buffer size=10 out of bucket size=10

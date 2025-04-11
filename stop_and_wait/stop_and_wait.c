@@ -13,7 +13,7 @@ int ack()
 void main() 
 {
 	int n,i,test;
-	printf("enter the no of packts you nee to stimulate: ");
+	printf("enter the no of packts you need to stimulate: ");
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
 	{

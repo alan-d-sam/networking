@@ -37,7 +37,7 @@ for(i=0;i<nodes;i++)
   printf("\n\n for router %d\n",i+1);
   for(j=0;j<nodes;j++)
   {
-    printf("\t\n nodes %d via %d Distance7%d",j+1,j+1,rt[i].dist[j]);
+    printf("\t\n nodes %d via %d Distance%d",j+1,j+1,rt[i].dist[j]);
   }
 }
 printf("\n\n");
